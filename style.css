@@ -1,0 +1,92 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;   
+}
+
+body{
+   font-family: monospace;
+   background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPOL0nrpJ8wMC1PtqK39AAmSjiV42yoccuZA&usqp=CAU);
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center; 
+}
+
+.m1{
+  font-size:50px;
+  color:aliceblue;
+  position: relative;
+  animation-direction: normal;
+  animation-name: animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  
+
+}
+
+@keyframes animation{
+   0%{right:-40%;}
+   100% { right: 25px;}
+}
+
+.m2{
+  font-size:xx-large; 
+  color: aliceblue;
+  padding-left:100px; 
+  padding-right:100px;
+  margin-top: 30px;
+  position: relative;
+  animation-direction:reverse;
+  animation-name: animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  
+}
+
+@keyframes animation{
+  0%{bottom:-40%;}
+  100% {bottom:25px;}
+}
+
+button{
+ background-color: rgb(168, 142, 142);
+ color: aliceblue;
+ font-size: x-large;
+ padding: 17px 17px 17px 17px;
+ margin-top: 30px;
+ border-radius: 10px 10px 10px 10px;
+ animation-direction: alternate-reverse;
+ animation-name: animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  
+}
+
+#sign-up{
+ background-color: rgb(69, 9, 198);
+ position: relative;
+ animation-name: animation;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+ animation-direction: normal;
+}
+
+@keyframes animation{
+  0%{left:-40%;}
+  100% {left:25px;
+}
+}
+ 
+ #trial{
+  position:relative;
+  animation-name: animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction: alternate-reverse;
+
+ }
+
+ @keyframes animation{
+  0%{right:-40%;}
+  100%{right:25px;}
+ }
